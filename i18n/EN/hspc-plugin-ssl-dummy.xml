@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<strings lang="en" convert_to_utf="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="strings.xsd">
+
+<string>
+<id>ssl_dummy_plugin_title_uc</id>
+<c>PCC | SSL Certificate Manager| Dummy plugin</c>
+<val>SSL Certificate dummy plug-in</val>
+</string>
+
+<string>
+<id>ssl_dummy_mode</id>
+<c>PCC | SSL Certificate Manager| Dummy plugin</c>
+<val>SSL Certificate mode</val>
+</string>
+
+<string>
+<id>ssl_dummy_mode_no_op</id>
+<c>PCC | SSL Certificate Manager| Dummy plugin mode: no operation</c>
+<val>No operation</val>
+</string>
+
+<string>
+<id>ssl_dummy_mode_fake_certificate</id>
+<c>PCC | SSL Certificate Manager| Dummy plugin mode: fake certificate</c>
+<val>Fake certificate</val>
+</string>
+
+<string>
+<id>ssl_dummy_mode_self_signed_certificate</id>
+<c>PCC | SSL Certificate Manager| Dummy plugin mode: fake certificate</c>
+<val>Self-signed certificate</val>
+</string>
+
+</strings>

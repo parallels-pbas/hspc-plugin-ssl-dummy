@@ -1,0 +1,48 @@
+<p><strong>Adjust the plug-in configuration:</strong>
+<p>
+<table width=100% bgcolor=#cccccc cellpadding=0 cellspacing=0 border=0>
+<tr><td><table width=100% cellpadding=3 cellspacing=1 border=0>
+<tr>
+<td>Field Name<br></td><td>Description</td></tr>
+
+<tr>
+<td bgcolor=white>Plug-in name</td>
+<td bgcolor=white>
+Enter the plug-in configuration name. THis name is used for reference and it may be different from the name of the SSL plug-in template.
+</td></tr>
+<tr>
+<td bgcolor=white>Plug-in template</td>
+<td bgcolor=white>
+Read-only field. The name of the SSL plug-in template.
+</td></tr>
+<tr>
+<td bgcolor=white>Process auto renewal before SSL certificate expiry date (days)</td>
+<td bgcolor=white>
+Enter how many days before SSL certificate expiration the plug-in should request auto renewal.
+</td></tr>
+<tr>
+<td bgcolor=white>Delay checking of SSL Certificate status (days, 0 = immediately)</td>
+<td bgcolor=white>
+Enter how many days the plug-in should wait before it starts checking SSL certificate status. Note that if 0 days is entered, then 
+the plug-in starts checking right after the certificate issue request is sent. 
+</td></tr>
+<tr>
+<td bgcolor=white>Duration of checking SSL certificate availability (days)</td>
+<td bgcolor=white>
+Enter how many days the plug-in should keep checking the SSL certificate status. By default, the plug-in checks the certificate status every hour.
+The certificate status is updated automatically.
+</td></tr>
+<tr>
+<td bgcolor=white>SSL certificate mode</td>
+<td bgcolor=white>Select the mode of SSL certificate generation:
+<ul>
+<li>No operation. The Dummy plug-in will not actually create a certificate.
+<li>Fake certificate. The plug-in will create some text instead of a certificate, for example, "TEST CERTIFICATE".
+<li>Self-signed. The Dummy plug-in will create a self-signed certificate.
+</ul>
+</td></tr>
+
+</table>
+</td></tr></table>
+</td>
+</tr></table>
